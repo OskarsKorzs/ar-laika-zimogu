@@ -1,0 +1,9 @@
+#izmantojot laika zimogu'
+import time
+import random
+
+a=time.time()
+
+print(a)
+
+parole=f"{int(time.time()*1000)}-{random.randint(1000,9999)}"
